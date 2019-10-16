@@ -20,6 +20,7 @@ group :development, :test do
   gem 'byebug'
   gem 'spring'
   gem 'rails-controller-testing'
+  gem 'brakeman' 
 end
 
 group :production do
