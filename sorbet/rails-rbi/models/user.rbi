@@ -62,7 +62,7 @@ module User::GeneratedAssociationMethods
   sig { returns(::Micropost::ActiveRecord_Associations_CollectionProxy) }
   def microposts; end
 
-  sig { params(value: T.any(T::Array[::Micropost], ::Micropost::ActiveRecord_Associations_CollectionProxy)).void }
+  sig { params(value: T::Enumerable[::Micropost]).void }
   def microposts=(value); end
 end
 

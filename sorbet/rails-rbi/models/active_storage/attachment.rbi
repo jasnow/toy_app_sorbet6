@@ -10,16 +10,16 @@ end
 module ActiveStorage::Attachment::GeneratedAssociationMethods
   extend T::Sig
 
-  sig { returns(::ActiveStorage::Blob) }
+  sig { returns(T.nilable(::ActiveStorage::Blob)) }
   def blob; end
 
-  sig { params(value: ::ActiveStorage::Blob).void }
+  sig { params(value: T.nilable(::ActiveStorage::Blob)).void }
   def blob=(value); end
 
-  sig { returns(T.untyped) }
+  sig { returns(T.nilable(T.untyped)) }
   def record; end
 
-  sig { params(value: T.untyped).void }
+  sig { params(value: T.nilable(T.untyped)).void }
   def record=(value); end
 end
 
