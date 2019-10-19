@@ -8727,6 +8727,10 @@ module IRB
   def self.version(); end
 end
 
+module ITypeAssert
+  Elem = ::T.let(nil, ::T.untyped)
+end
+
 module IniParse
   VERSION = ::T.let(nil, ::T.untyped)
 end
@@ -20699,6 +20703,10 @@ class SystemExit
   def status(); end
 
   def success?(); end
+end
+
+class TA
+  Elem = ::T.let(nil, ::T.untyped)
 end
 
 module TZInfo::RubyCoreSupport
