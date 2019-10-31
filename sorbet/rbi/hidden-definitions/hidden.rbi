@@ -4840,6 +4840,7 @@ class Array
   def to_csv(**options); end
 
   def to_h(); end
+
 end
 
 class Array
@@ -6835,6 +6836,7 @@ end
 
 module Exception2MessageMapper
   def bind(cl); end
+
 end
 
 Exception2MessageMapper::E2MM = Exception2MessageMapper
@@ -7397,8 +7399,6 @@ class Hash
   def default_proc(); end
 
   def default_proc=(default_proc); end
-
-  def dig(*_); end
 
   def fetch_values(*_); end
 
@@ -7981,8 +7981,6 @@ class IO
   def self.default_console_size(); end
 
   def self.foreach(*_); end
-
-  def self.pipe(*_); end
 end
 
 class IPAddr
@@ -9780,13 +9778,9 @@ end
 class Net::HTTPGatewayTimeout
 end
 
-class Net::HTTPInformation
-end
+Net::HTTPInformation::EXCEPTION_TYPE = Net::HTTPError
 
-Net::HTTPInformationCode::EXCEPTION_TYPE = Net::HTTPError
-
-class Net::HTTPInformation
-end
+Net::HTTPInformationCode = Net::HTTPInformation
 
 class Net::HTTPLoopDetected
   HAS_BODY = ::T.let(nil, ::T.untyped)
@@ -9887,6 +9881,7 @@ end
 
 class Net::IMAP
   def open_timeout(); end
+
   RESPONSE_ERRORS = ::T.let(nil, ::T.untyped)
 end
 
@@ -17828,6 +17823,7 @@ end
 
 module Random::Formatter
   def alphanumeric(n=T.unsafe(nil)); end
+
   ALPHANUMERIC = ::T.let(nil, ::T.untyped)
 end
 
@@ -21518,6 +21514,7 @@ module URI
   def self.encode_www_form_component(str, enc=T.unsafe(nil)); end
 
   def self.get_encoding(label); end
+
 end
 
 class Uglifier
