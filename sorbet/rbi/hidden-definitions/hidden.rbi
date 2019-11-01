@@ -3147,6 +3147,8 @@ class ActiveRecord::Associations::Association
 
   def scope(); end
 
+  def scoping(relation, &block); end
+
   def set_inverse_instance(record); end
 
   def set_inverse_instance_from_queries(record); end
@@ -3332,6 +3334,8 @@ end
 
 class ActiveRecord::Associations::JoinDependency
   def apply_column_aliases(relation); end
+
+  def base_klass(); end
 
   def initialize(base, table, associations, join_type); end
 
@@ -7145,13 +7149,13 @@ class File::Stat
 end
 
 class File
-  def self.empty?(_); end
-
   def self.exists?(_); end
 
   def self.lutime(*_); end
 
   def self.mkfifo(*_); end
+
+  def self.probe_stat_in(dir); end
 end
 
 module FileUtils
