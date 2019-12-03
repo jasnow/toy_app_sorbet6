@@ -34,10 +34,6 @@
 # wrong constant name <RESERVED_11>
 # wrong constant name <RESERVED_120>
 # wrong constant name <RESERVED_121>
-# wrong constant name <RESERVED_122>
-# wrong constant name <RESERVED_123>
-# wrong constant name <RESERVED_124>
-# wrong constant name <RESERVED_125>
 # wrong constant name <RESERVED_12>
 # wrong constant name <RESERVED_13>
 # wrong constant name <RESERVED_14>
@@ -2404,7 +2400,6 @@
 # wrong constant name bsearch_index
 # wrong constant name collect!
 # wrong constant name dig
-# wrong constant name filter!
 # wrong constant name flatten!
 # wrong constant name pack
 # wrong constant name replace
@@ -3375,7 +3370,6 @@
 # wrong constant name chunk
 # wrong constant name chunk_while
 # wrong constant name each_entry
-# wrong constant name filter
 # wrong constant name grep_v
 # wrong constant name slice_after
 # wrong constant name slice_before
@@ -3439,23 +3433,17 @@
 # wrong constant name <Class:Group>
 # wrong constant name change
 # wrong constant name change=
-# wrong constant name dir
 # wrong constant name dir=
 # wrong constant name expire
 # wrong constant name expire=
 # wrong constant name gecos
 # wrong constant name gecos=
-# wrong constant name gid
 # wrong constant name gid=
-# wrong constant name name
 # wrong constant name name=
-# wrong constant name passwd
 # wrong constant name passwd=
-# wrong constant name shell
 # wrong constant name shell=
 # wrong constant name uclass
 # wrong constant name uclass=
-# wrong constant name uid
 # wrong constant name uid=
 # wrong constant name []
 # wrong constant name each
@@ -3623,10 +3611,8 @@
 # wrong constant name default_proc
 # wrong constant name default_proc=
 # wrong constant name fetch_values
-# wrong constant name filter!
 # wrong constant name flatten
 # wrong constant name index
-# wrong constant name merge!
 # wrong constant name replace
 # wrong constant name slice
 # wrong constant name to_h
@@ -10169,7 +10155,7 @@
 # uninitialized constant Rails::Generators::TestCase::VERSION
 # wrong constant name properties
 # wrong constant name properties=
-# undefined singleton method `property<defaultArg>1' for `#<Module:0x00007faa73eb0468>'
+# undefined singleton method `property<defaultArg>1' for `#<Module:0x00007fe98f01b2f8>'
 # wrong constant name <static-init>
 # wrong constant name properties
 # wrong constant name properties=
@@ -10880,7 +10866,6 @@
 # wrong constant name <static-init>
 # wrong constant name binary_search
 # wrong constant name match?
-# wrong constant name union
 # undefined method `initialize<defaultArg>1' for class `Ripper::Filter'
 # Did you mean?  initialize_dup
 # undefined method `initialize<defaultArg>2' for class `Ripper::Filter'
@@ -11327,7 +11312,6 @@
 # wrong constant name compare_by_identity?
 # wrong constant name divide
 # wrong constant name eql?
-# wrong constant name filter!
 # wrong constant name flatten_merge<defaultArg>1
 # wrong constant name flatten_merge
 # wrong constant name initialize<defaultArg>1
@@ -12109,7 +12093,6 @@
 # uninitialized constant URI::GID::VERSION
 # uninitialized constant URI::GID::VERSION_CODE
 # uninitialized constant URI::GID::WEB_ENCODINGS_
-# wrong constant name request_uri
 # wrong constant name attributes
 # wrong constant name attributes=
 # wrong constant name dn
@@ -12161,23 +12144,8 @@
 # wrong constant name regexp
 # wrong constant name split
 # wrong constant name make_components_hash
-# undefined singleton method `decode_www_form<defaultArg>1' for `URI'
-# undefined singleton method `decode_www_form<defaultArg>2' for `URI'
-# undefined singleton method `decode_www_form<defaultArg>3' for `URI'
-# undefined singleton method `decode_www_form<defaultArg>4' for `URI'
-# undefined singleton method `encode_www_form<defaultArg>1' for `URI'
-# undefined singleton method `encode_www_form_component<defaultArg>1' for `URI'
 # undefined singleton method `extract<defaultArg>1' for `URI'
 # undefined singleton method `regexp<defaultArg>1' for `URI'
-# wrong constant name decode_www_form<defaultArg>1
-# wrong constant name decode_www_form<defaultArg>2
-# wrong constant name decode_www_form<defaultArg>3
-# wrong constant name decode_www_form<defaultArg>4
-# wrong constant name decode_www_form
-# wrong constant name encode_www_form<defaultArg>1
-# wrong constant name encode_www_form
-# wrong constant name encode_www_form_component<defaultArg>1
-# wrong constant name encode_www_form_component
 # wrong constant name extract<defaultArg>1
 # wrong constant name get_encoding
 # wrong constant name regexp<defaultArg>1

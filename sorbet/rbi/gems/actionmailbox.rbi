@@ -7,7 +7,7 @@
 #
 #   https://github.com/sorbet/sorbet-typed/new/master?filename=lib/actionmailbox/all/actionmailbox.rbi
 #
-# actionmailbox-6.0.1
+# actionmailbox-6.0.2.rc1
 module Mail
   def self.from_source(source); end
 end
